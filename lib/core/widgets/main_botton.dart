@@ -25,7 +25,7 @@ class MainAppButton extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width * .55,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(borderRadius ?? AppSize.s24),
+        borderRadius: BorderRadius.circular(borderRadius ?? AppSize.s8),
         color: backgroundColor,
         gradient: ColorManager.buttonColor,
         border: Border.all(

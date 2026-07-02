@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 abstract class ColorManager {
   static Color primary = const Color(0xFF04091B);
+  static Color babyBlue = const Color(0xFF00D4FF);
   static LinearGradient buttonColor = const LinearGradient(
     colors: [Color(0xFF00D4FF), Color(0xFF4F46E5)],
   );
