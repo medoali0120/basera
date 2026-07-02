@@ -1,57 +1,38 @@
 import 'package:basera/core/resources/color_manager.dart';
+import 'package:basera/core/resources/font_manager.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-// import 'font_manager.dart';
-
-// TextStyle _getTextStyle(double fontSize, FontWeight fontWeight, Color color) {
-//   return TextStyle(
-//     fontSize: fontSize,
-//     fontFamily: FontConstants.fontFamily,
-//     color: color,
-//     fontWeight: fontWeight,
-//   );
-// }
-
-// regular style
-
-// TextStyle getLightStyle({
-//   double fontSize = FontSize.s12,
-//   required Color color,
-// }) {
-//   return _getTextStyle(fontSize, FontWeightManager.light, color);
-// }
 class StylesManager {
   static TextStyle hintLine() {
     return GoogleFonts.inter(
-      fontSize: 15.sp,
-      fontWeight: FontWeight.w400,
-      color: ColorManager.grey,
+      fontSize: FontSize.s14,
+      fontWeight: FontWeightManager.regular,
+      color: ColorManger.grey,
     );
   }
 
   static TextStyle lableLine() {
     return GoogleFonts.inter(
-      fontSize: 16.sp,
-      fontWeight: FontWeight.w400,
-      color: ColorManager.grey,
+      fontSize: FontSize.s16,
+      fontWeight: FontWeightManager.regular,
+      color: ColorManger.grey,
     );
   }
 
   static TextStyle litlleHintLine() {
     return GoogleFonts.inter(
-      fontSize: 12.sp,
-      fontWeight: FontWeight.w400,
-      color: ColorManager.grey,
+      fontSize: FontSize.s12,
+      fontWeight: FontWeightManager.regular,
+      color: ColorManger.grey,
     );
   }
 
   static TextStyle descriptionLine() {
     return GoogleFonts.inter(
-      fontSize: 14.sp,
-      fontWeight: FontWeight.w500,
-      color: ColorManager.grey,
+      fontSize: FontSize.s16,
+      fontWeight: FontWeightManager.medium,
+      color: ColorManger.grey,
     );
   }
 
@@ -59,49 +40,49 @@ class StylesManager {
   //descripOnboardingLine 16
   static TextStyle mediumLine() {
     return GoogleFonts.inter(
-      fontSize: 18.sp,
-      fontWeight: FontWeight.w500,
-      color: ColorManager.white,
+      fontSize: FontSize.s18,
+      fontWeight: FontWeightManager.medium,
+      color: ColorManger.white,
     );
   }
 
   static TextStyle onboardingTitleLine() {
     return GoogleFonts.inter(
-      fontSize: 24.sp,
-      fontWeight: FontWeight.w600,
-      color: ColorManager.white,
+      fontSize: FontSize.s24,
+      fontWeight: FontWeightManager.semiBold,
+      color: ColorManger.white,
     );
   }
 
   static TextStyle noteLine() {
     return GoogleFonts.inter(
-      fontSize: 16.sp,
-      fontWeight: FontWeight.w600,
-      color: ColorManager.white,
+      fontSize: FontSize.s16,
+      fontWeight: FontWeightManager.bold,
+      color: ColorManger.white,
     );
   }
 
   static TextStyle parentNameLine() {
     return GoogleFonts.inter(
-      fontSize: 14.sp,
-      fontWeight: FontWeight.w600,
-      color: ColorManager.white,
+      fontSize: FontSize.s14,
+      fontWeight: FontWeightManager.semiBold,
+      color: ColorManger.white,
     );
   }
 
   static TextStyle headerSignLine() {
     return GoogleFonts.inter(
-      fontSize: 28.sp,
-      fontWeight: FontWeight.w600,
-      color: ColorManager.white,
+      fontSize: FontSize.s28,
+      fontWeight: FontWeightManager.semiBold,
+      color: ColorManger.white,
     );
   }
 
   static TextStyle headerSelecteLine() {
     return GoogleFonts.inter(
-      fontSize: 24.sp,
-      fontWeight: FontWeight.w800,
-      color: ColorManager.white,
+      fontSize: FontSize.s24,
+      fontWeight: FontWeightManager.bold,
+      color: ColorManger.white,
     );
   }
 }
