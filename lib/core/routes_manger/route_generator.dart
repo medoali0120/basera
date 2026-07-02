@@ -1,10 +1,13 @@
+import 'package:basera/core/routes_manger/routes.dart';
+import 'package:basera/feature/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
 class RouteGenerator {
   static Route<dynamic> getRoute(RouteSettings settings) {
     switch (settings.name) {
-      // case Routes.cartRoute:
-      //   return MaterialPageRoute(builder: (_) => const CartScreen());
+      case Routes.onboardingScreen:
+        return MaterialPageRoute(builder: (_) => const OnboardingScreen());
+
       default:
         return unDefinedRoute();
     }
