@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-abstract class ColorManger {
+abstract class ColorManager {
   static Color primary = const Color(0xFF04091B);
   static Color babyBlue = const Color(0xFF00D4FF);
 

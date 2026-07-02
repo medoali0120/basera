@@ -15,7 +15,7 @@ class CustomTaxtButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton(
       style: TextButton.styleFrom(
-        foregroundColor: ColorManger.white,
+        foregroundColor: ColorManager.white,
         textStyle: TextStyle(fontWeight: FontWeight.w700, fontSize: 16.sp),
       ),
       onPressed: onPressed,

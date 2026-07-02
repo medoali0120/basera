@@ -8,7 +8,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s14,
       fontWeight: FontWeightManager.regular,
-      color: ColorManger.grey,
+      color: ColorManager.grey,
     );
   }
 
@@ -16,7 +16,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s16,
       fontWeight: FontWeightManager.regular,
-      color: ColorManger.grey,
+      color: ColorManager.grey,
     );
   }
 
@@ -24,7 +24,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s12,
       fontWeight: FontWeightManager.regular,
-      color: ColorManger.grey,
+      color: ColorManager.grey,
     );
   }
 
@@ -32,7 +32,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s16,
       fontWeight: FontWeightManager.medium,
-      color: ColorManger.grey,
+      color: ColorManager.grey,
     );
   }
 
@@ -42,7 +42,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s18,
       fontWeight: FontWeightManager.medium,
-      color: ColorManger.white,
+      color: ColorManager.white,
     );
   }
 
@@ -50,7 +50,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s24,
       fontWeight: FontWeightManager.semiBold,
-      color: ColorManger.white,
+      color: ColorManager.white,
     );
   }
 
@@ -58,7 +58,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s16,
       fontWeight: FontWeightManager.bold,
-      color: ColorManger.white,
+      color: ColorManager.white,
     );
   }
 
@@ -66,7 +66,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s14,
       fontWeight: FontWeightManager.semiBold,
-      color: ColorManger.white,
+      color: ColorManager.white,
     );
   }
 
@@ -74,7 +74,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s28,
       fontWeight: FontWeightManager.semiBold,
-      color: ColorManger.white,
+      color: ColorManager.white,
     );
   }
 
@@ -82,7 +82,7 @@ class StylesManager {
     return GoogleFonts.inter(
       fontSize: FontSize.s24,
       fontWeight: FontWeightManager.bold,
-      color: ColorManger.white,
+      color: ColorManager.white,
     );
   }
 }
