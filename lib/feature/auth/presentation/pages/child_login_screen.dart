@@ -4,6 +4,7 @@ import 'package:basera/core/resources/font_manager.dart';
 import 'package:basera/core/resources/styles_manager.dart';
 import 'package:basera/core/widgets/custom_elevated_button.dart';
 import 'package:basera/core/widgets/main_botton.dart';
+import 'package:basera/core/widgets/main_card.dart';
 import 'package:basera/core/widgets/spacing_widget.dart';
 import 'package:basera/feature/auth/presentation/widgets/divider_widget.dart';
 import 'package:flutter/material.dart';
@@ -44,10 +45,16 @@ class _ChildLoginScreenState extends State<ChildLoginScreen> {
                   textAlign: TextAlign.center,
                 ),
                 HeightSpace(24),
-                // Container(width: 307,height: 212,decoration: BoxDecoration(borderRadius: BorderRadius.circular(8.r),color: ColorManager.white),),
                 Image.asset(ImageAssets.scanImg),
                 HeightSpace(24),
-
+                MainCard(
+                  text: "Secure Connection",
+                  description:
+                      "Your device will be connected to your parent's account with end-to-end encryption.",
+                  imagePath: ImageAssets.lock,
+                  isParentCard: false,
+                ),
+                HeightSpace(24),
                 MainAppButton(
                   borderRadius: 8.r,
                   textStyle: StylesManager.mediumLine().copyWith(
