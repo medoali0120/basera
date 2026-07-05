@@ -1,6 +1,6 @@
 import 'package:basera/core/resources/color_manager.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 import '../resources/values_manager.dart';
 
 class MainAppButton extends StatelessWidget {
@@ -12,8 +12,9 @@ class MainAppButton extends StatelessWidget {
     required this.onTap,
     this.borderRadius,
     this.borderColor,
+    this.isGradient = true,
   });
-
+  final bool isGradient;
   final String text;
   final TextStyle? textStyle;
   final void Function() onTap;
@@ -28,7 +29,11 @@ class MainAppButton extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(borderRadius ?? AppSize.s24),
         color: backgroundColor,
-        gradient: ColorManager.buttonColor,
+        gradient: isGradient
+            ? ColorManager.buttonColor
+            : LinearGradient(
+                colors: [ColorManager.transparent, ColorManager.transparent],
+              ),
         border: Border.all(
           color: borderColor ?? Colors.transparent,
           width: AppSize.s1,

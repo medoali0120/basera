@@ -7,6 +7,7 @@ import 'package:basera/core/widgets/main_botton.dart';
 import 'package:basera/core/widgets/main_card.dart';
 import 'package:basera/core/widgets/spacing_widget.dart';
 import 'package:basera/feature/auth/presentation/widgets/divider_widget.dart';
+import 'package:basera/feature/auth/presentation/widgets/sign_in_code_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -67,7 +68,12 @@ class _ChildLoginScreenState extends State<ChildLoginScreen> {
                 DividerWidget(),
                 HeightSpace(24),
                 CustomElevatedButton(
-                  onTap: () {},
+                  onTap: () {
+                    showDialog(
+                      context: context,
+                      builder: (context) => SignInCodeWidget(),
+                    );
+                  },
                   label: 'Enter Pairing Code Manually',
                   isStadiumBorder: false,
                 ),
