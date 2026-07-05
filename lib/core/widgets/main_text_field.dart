@@ -133,8 +133,14 @@ class _BuildTextFieldState extends State<BuildTextField> {
                       splashRadius: AppSize.s1,
                       isSelected: !hidden,
                       color: widget.cursorColor,
-                      selectedIcon: const Icon(Icons.remove_red_eye_rounded),
-                      icon: SvgPicture.asset(SvgAssets.eye),
+                      selectedIcon: Icon(
+                        Icons.remove_red_eye_rounded,
+                        color: ColorManager.babyBlue,
+                      ),
+                      icon: SvgPicture.asset(
+                        SvgAssets.eye,
+                        color: ColorManager.babyBlue,
+                      ),
                     )
                   : widget.suffixIcon,
               hintStyle: widget.hintTextStyle ?? StylesManager.hintLine(),

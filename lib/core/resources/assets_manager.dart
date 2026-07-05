@@ -25,4 +25,7 @@ abstract class SvgAssets {
   static const String three = "$svgPath/one.svg";
   static const String solarLinkIcon = "$svgPath/solar_link_icon.svg";
   static const String eye = "$svgPath/Eye.svg";
+  static const String person = "$svgPath/person.svg";
+  static const String mail = "$svgPath/mail.svg";
+  static const String password = "$svgPath/password.svg";
 }

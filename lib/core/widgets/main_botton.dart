@@ -1,5 +1,6 @@
 import 'package:basera/core/resources/color_manager.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../resources/values_manager.dart';
 
 class MainAppButton extends StatelessWidget {
@@ -23,7 +24,7 @@ class MainAppButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width * .55,
+      width: double.infinity,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(borderRadius ?? AppSize.s24),
         color: backgroundColor,

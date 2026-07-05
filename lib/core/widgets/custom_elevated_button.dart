@@ -29,9 +29,10 @@ class CustomElevatedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
+        side: BorderSide(color: ColorManager.babyBlue, width: 1.w),
         shape: isStadiumBorder
             ? const StadiumBorder()
-            : RoundedRectangleBorder(borderRadius: BorderRadius.circular(17.r)),
+            : RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.r)),
         backgroundColor: backgroundColor ?? ColorManager.primary,
         padding: EdgeInsets.symmetric(horizontal: 15.w, vertical: 14.h),
       ),
