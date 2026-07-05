@@ -1,10 +1,12 @@
+import 'package:basera/core/routes_manger/routes.dart';
+import 'package:basera/feature/select_side/presentation/pages/select_side_screen.dart';
 import 'package:flutter/material.dart';
 
 class RouteGenerator {
   static Route<dynamic> getRoute(RouteSettings settings) {
     switch (settings.name) {
-      // case Routes.cartRoute:
-      //   return MaterialPageRoute(builder: (_) => const CartScreen());
+      case Routes.selectSideRoute:
+        return MaterialPageRoute(builder: (_) => const SelectSideScreen());
       default:
         return unDefinedRoute();
     }
