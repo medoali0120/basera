@@ -19,4 +19,5 @@ abstract class ColorManager {
   static Color pink = const Color(0xffFFB4AB);
   static Color orange = const Color(0xffF97316);
   static Color green = const Color(0xff4ADE80);
+  static Color darkBlue = const Color(0xff0A1530);
 }

@@ -76,10 +76,10 @@ dependencies:
   # Localization
   easy_localization: ^3.0.8
   # other packges
-  fluttertoast: ^9.1.0
+  fluttertoast: ^9.0.0
   google_fonts: ^8.1.0
   dio: ^5.9.2
-
+  flutter_auto_size_text: ^5.0.0
   flutter_native_splash: ^2.4.7
 dev_dependencies:
   flutter_test:
