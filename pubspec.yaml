@@ -76,7 +76,7 @@ dependencies:
   # Localization
   easy_localization: ^3.0.8
   # other packges
-  fluttertoast: ^9.1.0
+  fluttertoast: ^9.0.0
   google_fonts: ^8.1.0
   dio: ^5.9.2
 
