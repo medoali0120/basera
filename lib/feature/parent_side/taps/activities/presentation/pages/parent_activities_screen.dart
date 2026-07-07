@@ -1,8 +1,8 @@
 import 'package:basera/core/resources/color_manager.dart';
 import 'package:flutter/material.dart';
 
-class ParentActivitiesTap extends StatelessWidget {
-  const ParentActivitiesTap({super.key});
+class ParentActivitiesTab extends StatelessWidget {
+  const ParentActivitiesTab({super.key});
 
   @override
   Widget build(BuildContext context) {

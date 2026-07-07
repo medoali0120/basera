@@ -1,8 +1,8 @@
 import 'package:basera/core/resources/color_manager.dart';
 import 'package:flutter/material.dart';
 
-class ParentProfileTap extends StatelessWidget {
-  const ParentProfileTap({super.key});
+class ParentProfileTab extends StatelessWidget {
+  const ParentProfileTab({super.key});
 
   @override
   Widget build(BuildContext context) {

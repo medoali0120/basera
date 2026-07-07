@@ -10,13 +10,13 @@ class RouteGenerator {
   static Route<dynamic> getRoute(RouteSettings settings) {
     switch (settings.name) {
       case Routes.parentHome:
-        return MaterialPageRoute(builder: (_) => const ParentHomeTap());
+        return MaterialPageRoute(builder: (_) => const ParentHomeTab());
       case Routes.parentProfile:
-        return MaterialPageRoute(builder: (_) => const ParentProfileTap());
+        return MaterialPageRoute(builder: (_) => const ParentProfileTab());
       case Routes.parentActivity:
-        return MaterialPageRoute(builder: (_) => const ParentActivitiesTap());
+        return MaterialPageRoute(builder: (_) => const ParentActivitiesTab());
       case Routes.parentAlerts:
-        return MaterialPageRoute(builder: (_) => const ParentAlertsTap());
+        return MaterialPageRoute(builder: (_) => const ParentAlertsTab());
       case Routes.parentMainLayout:
         return MaterialPageRoute(builder: (_) => const ParentHomeLayout());
 
