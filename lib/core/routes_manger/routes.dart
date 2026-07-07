@@ -6,4 +6,9 @@ class Routes {
   static const String wishRoute = '/wish';
   static const String signInRoute = "/signIn";
   static const String signUpRoute = "/signUp";
+  static const String parentHome = "/parentHome";
+  static const String parentAlerts = "/parentAlerts";
+  static const String parentActivity = "/parentActivity";
+  static const String parentProfile = "/parentProfile";
+  static const String parentMainLayout = "/parentMainLayout";
 }

@@ -13,6 +13,7 @@ abstract class ImageAssets {
   static const String splash12 = "$imagePath/splash12.png";
   static const String successImg = "$imagePath/success_img.png";
   static const String vpnImg = "$imagePath/vpn.png";
+  static const String parentImg = "$imagePath/parent_img.png";
 }
 
 abstract class SvgAssets {
@@ -26,4 +27,8 @@ abstract class SvgAssets {
   static const String solarLinkIcon = "$svgPath/solar_link_icon.svg";
   static const String eye = "$svgPath/Eye.svg";
   static const String person = "$svgPath/person.svg";
+  static const String profile = "$svgPath/profile.svg";
+  static const String home = "$svgPath/home.svg";
+  static const String alerts = "$svgPath/alerts.svg";
+  static const String activities = "$svgPath/unSelectedActivity.svg";
 }
