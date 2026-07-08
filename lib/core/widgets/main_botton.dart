@@ -11,6 +11,7 @@ class MainAppButton extends StatelessWidget {
     required this.onTap,
     this.borderRadius,
     this.borderColor,
+    this.isGradient = true,
   });
 
   final String text;
@@ -19,6 +20,7 @@ class MainAppButton extends StatelessWidget {
   final Color? backgroundColor;
   final Color? borderColor;
   final double? borderRadius;
+  final bool isGradient;
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +29,9 @@ class MainAppButton extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(borderRadius ?? AppSize.s24),
         color: backgroundColor,
-        gradient: ColorManager.buttonColor,
+        gradient: isGradient
+            ? ColorManager.buttonColor
+            : LinearGradient(colors: [Colors.transparent, Colors.transparent]),
         border: Border.all(
           color: borderColor ?? Colors.transparent,
           width: AppSize.s1,

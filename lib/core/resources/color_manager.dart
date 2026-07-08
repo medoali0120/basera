@@ -20,6 +20,8 @@ abstract class ColorManager {
   static Color orange = const Color(0xffF97316);
   static Color green = const Color(0xff4ADE80);
   static Color darkBlue = const Color(0xff0A1530);
+  static Color purpel = const Color(0xffC084FC);
+
   static Color blue20 = const Color(0xff0566D9).withValues(alpha: 0.2);
   static Color navBarColor = const Color(0xff1F1F21).withValues(alpha: 0.95);
   static Color customParentCardColor = const Color(
