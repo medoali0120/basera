@@ -17,6 +17,7 @@ abstract class ImageAssets {
   static const String childImg = "$imagePath/childImg.png";
   static const String parentImgLarge = "$imagePath/parentImgLarge.png";
   static const String qrImg = "$imagePath/qrImg.png";
+  static const String lock = "$imagePath/lock.png";
 }
 
 abstract class SvgAssets {
