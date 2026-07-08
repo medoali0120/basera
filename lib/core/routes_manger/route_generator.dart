@@ -3,6 +3,7 @@ import 'package:basera/feature/parent_side/home_layout/screens/parent_home_layou
 import 'package:basera/feature/parent_side/taps/activities/presentation/pages/parent_activities_screen.dart';
 import 'package:basera/feature/parent_side/taps/alerts/presentation/pages/parent_alerts_screen.dart';
 import 'package:basera/feature/parent_side/taps/home/presentation/pages/parent_home.dart';
+import 'package:basera/feature/parent_side/taps/parent_profile/presentation/pages/create_qr_screen.dart';
 import 'package:basera/feature/parent_side/taps/parent_profile/presentation/pages/parent_profile.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => const ParentAlertsTab());
       case Routes.parentMainLayout:
         return MaterialPageRoute(builder: (_) => const ParentHomeLayout());
+      case Routes.addChildScreen:
+        return MaterialPageRoute(builder: (_) => const CreateQRScreen());
 
       default:
         return unDefinedRoute();

@@ -11,4 +11,5 @@ class Routes {
   static const String parentActivity = "/parentActivity";
   static const String parentProfile = "/parentProfile";
   static const String parentMainLayout = "/parentMainLayout";
+  static const String addChildScreen = "/addChildScreen";
 }

@@ -14,6 +14,9 @@ abstract class ImageAssets {
   static const String successImg = "$imagePath/success_img.png";
   static const String vpnImg = "$imagePath/vpn.png";
   static const String parentImg = "$imagePath/parent_img.png";
+  static const String childImg = "$imagePath/childImg.png";
+  static const String parentImgLarge = "$imagePath/parentImgLarge.png";
+  static const String qrImg = "$imagePath/qrImg.png";
 }
 
 abstract class SvgAssets {
@@ -23,7 +26,7 @@ abstract class SvgAssets {
   static const String logoutIcon = "$svgPath/logout_icon.svg";
   static const String one = "$svgPath/one.svg";
   static const String two = "$svgPath/two.svg";
-  static const String three = "$svgPath/one.svg";
+  static const String three = "$svgPath/three.svg";
   static const String solarLinkIcon = "$svgPath/solar_link_icon.svg";
   static const String eye = "$svgPath/Eye.svg";
   static const String person = "$svgPath/person.svg";
@@ -31,4 +34,10 @@ abstract class SvgAssets {
   static const String home = "$svgPath/home.svg";
   static const String alerts = "$svgPath/alerts.svg";
   static const String activities = "$svgPath/unSelectedActivity.svg";
+  static const String childrenIcon = "$svgPath/childrenIcon.svg";
+  static const String vpn = "$svgPath/vpnIcon.svg";
+  static const String lock = "$svgPath/passLockIcon.svg";
+  static const String disconnectedIcon = "$svgPath/disconnectIcon.svg";
+  static const String logout = "$svgPath/logoutIcon.svg";
+  static const String trashIcon = "$svgPath/trashIcon.svg";
 }
