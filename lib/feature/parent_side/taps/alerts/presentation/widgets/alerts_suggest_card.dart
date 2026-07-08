@@ -6,6 +6,7 @@ import 'package:basera/core/widgets/spacing_widget.dart';
 import 'package:basera/feature/parent_side/taps/parent_profile/presentation/widgets/custom_elevation_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_auto_size_text/flutter_auto_size_text.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
 class AlertsSuggestCard extends StatelessWidget {
@@ -75,16 +76,19 @@ class AlertsSuggestCard extends StatelessWidget {
                 child: MainAppButton(
                   text: "Approve",
                   onTap: approveTap,
-                  backgroundColor: ColorManager.babyBlue,
                   isGradient: false,
+                  backgroundColor: ColorManager.blue,
+                  borderRadius: 12.r,
                 ),
               ),
+              WidthSpace(16),
               Expanded(
                 child: MainAppButton(
                   isGradient: false,
-                  backgroundColor: ColorManager.navBarColor,
+                  backgroundColor: ColorManager.denyButtonColor,
                   text: "Deny",
-                  borderColor: ColorManager.grey,
+
+                  borderRadius: 12.r,
                   onTap: () {
                     Navigator.pop(context);
                   },
