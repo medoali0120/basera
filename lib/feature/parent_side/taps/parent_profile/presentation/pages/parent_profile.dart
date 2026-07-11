@@ -42,7 +42,7 @@ class ParentProfileTab extends StatelessWidget {
             HeightSpace(24),
             AddChildWidget(
               onTap: () {
-                Navigator.pushNamed(context, Routes.addChildScreen);
+                Navigator.pushNamed(context, Routes.upgradeAddChildScreen);
               },
             ),
             HeightSpace(24),

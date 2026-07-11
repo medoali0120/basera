@@ -18,6 +18,13 @@ abstract class ImageAssets {
   static const String parentImgLarge = "$imagePath/parentImgLarge.png";
   static const String qrImg = "$imagePath/qrImg.png";
   static const String lock = "$imagePath/lock.png";
+  static const String tagLogo = "$imagePath/tagLogo.png";
+  static const String aiLogo = "$imagePath/aiLogo.png";
+  static const String addLogo = "$imagePath/addLogo.png";
+  static const String reportsLogo = "$imagePath/reportsLogo.png";
+  static const String webLogo = "$imagePath/webLogo.png";
+  static const String premuimFeature = "$imagePath/premiumFeature.png";
+  static const String groupIcon = "$imagePath/groupIcon.png";
 }
 
 abstract class SvgAssets {
@@ -41,4 +48,9 @@ abstract class SvgAssets {
   static const String disconnectedIcon = "$svgPath/disconnectIcon.svg";
   static const String logout = "$svgPath/logoutIcon.svg";
   static const String trashIcon = "$svgPath/trashIcon.svg";
+  static const String unLimtedIcon = "$svgPath/unLimtedIcon.svg";
+  static const String yellowTrueIcon = "$svgPath/yellowTrueIcon.svg";
+  static const String purpelTrueIcon = "$svgPath/purpelTrueIcon.svg";
+  static const String greenTrueIcon = "$svgPath/greenTrueIcon.svg";
+  static const String grayTrueIcon = "$svgPath/grayTrueIcon.svg";
 }

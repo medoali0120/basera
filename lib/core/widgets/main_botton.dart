@@ -1,4 +1,5 @@
 import 'package:basera/core/resources/color_manager.dart';
+import 'package:basera/core/resources/styles_manager.dart';
 import 'package:flutter/material.dart';
 import '../resources/values_manager.dart';
 
@@ -11,6 +12,7 @@ class MainAppButton extends StatelessWidget {
     required this.onTap,
     this.borderRadius,
     this.borderColor,
+    this.isGradent = true,
   });
 
   final String text;
@@ -19,6 +21,7 @@ class MainAppButton extends StatelessWidget {
   final Color? backgroundColor;
   final Color? borderColor;
   final double? borderRadius;
+  final bool isGradent;
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +30,7 @@ class MainAppButton extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(borderRadius ?? AppSize.s24),
         color: backgroundColor,
-        gradient: ColorManager.buttonColor,
+        gradient: isGradent ? ColorManager.buttonColor : null,
         border: Border.all(
           color: borderColor ?? Colors.transparent,
           width: AppSize.s1,
@@ -39,7 +42,7 @@ class MainAppButton extends StatelessWidget {
           child: FittedBox(
             child: Text(
               text,
-              style: textStyle,
+              style: StylesManager.mediumLine(),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
             ),
