@@ -41,4 +41,8 @@ abstract class SvgAssets {
   static const String disconnectedIcon = "$svgPath/disconnectIcon.svg";
   static const String logout = "$svgPath/logoutIcon.svg";
   static const String trashIcon = "$svgPath/trashIcon.svg";
+  static const String timerIcon = "$svgPath/timerIcon.svg";
+  static const String homeBlockIcon = "$svgPath/homeBlockIcon.svg";
+  static const String key = "$svgPath/key.svg";
+  static const String homeAlertIcon = "$svgPath/homeAlertIcon.svg";
 }
