@@ -15,7 +15,7 @@ class CustomElevationCard extends StatelessWidget {
         boxShadow: [
           BoxShadow(
             color: ColorManager.customParentCardColor,
-            blurRadius: 30,
+            blurRadius: 15,
             spreadRadius: 0,
             offset: const Offset(0, 0),
           ),

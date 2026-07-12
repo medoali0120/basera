@@ -48,6 +48,10 @@ abstract class SvgAssets {
   static const String disconnectedIcon = "$svgPath/disconnectIcon.svg";
   static const String logout = "$svgPath/logoutIcon.svg";
   static const String trashIcon = "$svgPath/trashIcon.svg";
+  static const String calenderIcon = "$svgPath/calenderIcon.svg";
+  static const String protectionIcon = "$svgPath/protectionIcon.svg";
+  static const String aiIcon = "$svgPath/aiIcon.svg";
+  static const String alertIcon = "$svgPath/alertIcon.svg";
   static const String unLimtedIcon = "$svgPath/unLimtedIcon.svg";
   static const String yellowTrueIcon = "$svgPath/yellowTrueIcon.svg";
   static const String purpelTrueIcon = "$svgPath/purpelTrueIcon.svg";
