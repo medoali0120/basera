@@ -7,4 +7,10 @@ class Routes {
   static const String signInRoute = "/signIn";
   static const String signUpRoute = "/signUp";
   static const String childHomeScreen = "/childHomeScreen";
+  static const String childHomeTab = "/childHomeTab";
+  static const String rewardsTab = "/rewardsTab";
+  static const String learnTab = "/rewardsTab ";
+  static const String missionTab = "/missionTab ";
+  static const String childProfileTab = "/childProfileTab";
+  static const String childHomeLayout = "/childHomeLayout";
 }

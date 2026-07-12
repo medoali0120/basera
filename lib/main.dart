@@ -20,7 +20,7 @@ class BasseraApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: child,
         onGenerateRoute: RouteGenerator.getRoute,
-        initialRoute: Routes.childHomeScreen,
+        initialRoute: Routes.childHomeLayout,
       ),
     );
   }
