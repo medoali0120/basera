@@ -104,7 +104,7 @@ class PlanCard extends StatelessWidget {
                     backgroundColor: buttonColor,
                     borderRadius: 8.r,
                     onTap: onTap,
-                    isGradent: isGradientButton,
+                    isGradient: isGradientButton,
                   ),
                 ),
               ],
