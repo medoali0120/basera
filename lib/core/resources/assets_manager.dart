@@ -17,6 +17,37 @@ abstract class ImageAssets {
   static const String logout = "$imagePath/logout.png";
   static const String lock = "$imagePath/lock.png";
   static const String childImg = "$imagePath/childImg.png";
+  static const String acheiveIcon = "$imagePath/acheiveIcon.png";
+  static const String roundedFireIcon = "$imagePath/roundedFireIcon.png";
+  static const String quizImg = "$imagePath/quizImg.png";
+  static const String lockImg = "$imagePath/lockImg.png";
+  static const String playIcon = "$imagePath/playIcon.png";
+  static const String correctIcon = "$imagePath/correctIcon.png";
+  static const String cupIcon = "$imagePath/cupIcon.png";
+  static const String recognizeImg = "$imagePath/recognizeImg.png";
+  static const String protectPassImg = "$imagePath/protectPassImg.png";
+  static const String safeImg = "$imagePath/safeImg.png";
+  static const String successIcon = "$imagePath/successIcon.png";
+  static const String heroSection = "$imagePath/Hero Section.png";
+  static const String robloxBg = "$imagePath/robloxBg.png";
+  static const String foodBankImg = "$imagePath/foodBankImg.png";
+  static const String cinemaImg = "$imagePath/cinemaImg.png";
+  static const String toyStoreImg = "$imagePath/toyStoreImg.png";
+  static const String kidMealImg = "$imagePath/kidMealImg.png";
+  static const String kidImg = "$imagePath/kidImg.png";
+  static const String kidZinaMImg = "$imagePath/kidZinaMImg.png";
+  static const String robloxMImg = "$imagePath/robloxMImg.png";
+  static const String cyberSafetyImg = "$imagePath/cyberSaftyImg.png";
+  static const String heartIcon = "$imagePath/heartIcon.png";
+  static const String protectionIcon = "$imagePath/protectionIcon.png";
+  static const String graduationIcon = "$imagePath/graduationIcon.png";
+  static const String timeScreenIcon = "$imagePath/timeScreenIcon.png";
+  static const String kidZaniaImg = "$imagePath/kidZaniaImg.png";
+  static const String robloxImg = "$imagePath/robloxImg.png";
+  static const String rewardsImg = "$imagePath/rewardsImg.png";
+  static const String kidsAds2 = "$imagePath/kidsAds2.png";
+  static const String kidsAds3 = "$imagePath/kidsAds3.png";
+  static const String thirdAds = "$imagePath/ads3.png";
 }
 
 abstract class SvgAssets {
@@ -35,4 +66,10 @@ abstract class SvgAssets {
   static const String rewardsIcon = "$svgPath/rewardsIcon.svg";
   static const String home = "$svgPath/home.svg";
   static const String profile = "$svgPath/profile.svg";
+  static const String smallCupIcon = "$svgPath/smallCupIcon.svg";
+  static const String medal = "$svgPath/medal.svg";
+  static const String fireIcon = "$svgPath/fireIcon.svg";
+  static const String starsIcon = "$svgPath/starsIcon.svg";
+  static const String grayPointsIcon = "$svgPath/grayPointsIcon.svg";
+  static const String pointsIcon = "$svgPath/pointsIcon.svg";
 }

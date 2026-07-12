@@ -17,6 +17,7 @@ abstract class ColorManager {
   static Color error = const Color(0xffe61f34); // red color
   static Color lightblue = const Color(0xffBCC6E2);
   static Color pink = const Color(0xffFFB4AB);
+  static Color darkPink = const Color(0xffEC4899);
   static Color orange = const Color(0xffF97316);
   static Color green = const Color(0xff4ADE80);
   static Color darkBlue = const Color(0xff0A1530);
