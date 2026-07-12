@@ -50,6 +50,7 @@ abstract class ImageAssets {
   static const String thirdAds = "$imagePath/ads3.png";
   static const String starsIcon = "$imagePath/starsIcon.png";
   static const String qrImg = "$imagePath/qrImg.png";
+  static const String rocketIcon = "$imagePath/rocketIcon.png";
 }
 
 abstract class SvgAssets {
