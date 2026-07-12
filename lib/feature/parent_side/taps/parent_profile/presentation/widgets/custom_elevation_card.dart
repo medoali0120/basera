@@ -5,6 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class CustomElevationCard extends StatelessWidget {
   const CustomElevationCard({super.key, required this.widget});
   final Widget widget;
+
   @override
   Widget build(BuildContext context) {
     return Container(
