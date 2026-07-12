@@ -5,6 +5,7 @@ import 'package:basera/core/resources/styles_manager.dart';
 import 'package:basera/core/resources/values_manager.dart';
 import 'package:basera/core/widgets/spacing_widget.dart';
 import 'package:basera/feature/child_side/main_layout/taps/rewards_tab/presentation/widgets/how_to_use_card.dart';
+import 'package:basera/feature/child_side/main_layout/taps/rewards_tab/presentation/widgets/qr_widget.dart';
 import 'package:basera/feature/child_side/main_layout/taps/rewards_tab/presentation/widgets/vocher_detail_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -50,6 +51,8 @@ class RewardRedeemdScreen extends StatelessWidget {
                 ),
                 textAlign: TextAlign.center,
               ),
+              HeightSpace(24),
+              QrWidget(),
               HeightSpace(24),
               VoucherDetailsCard(
                 partner: "Roblox",
