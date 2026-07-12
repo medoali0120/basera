@@ -22,6 +22,7 @@ abstract class ColorManager {
   static Color green = const Color(0xff4ADE80);
   static Color darkBlue = const Color(0xff0A1530);
   static Color darkgray = const Color(0xff1B1B1D);
+  static Color purpel = const Color(0xffC084FC);
 
   static Color blue20 = const Color(0xff0566D9).withValues(alpha: 0.2);
   static Color navBarColor = const Color(0xff1F1F21).withValues(alpha: 0.95);
