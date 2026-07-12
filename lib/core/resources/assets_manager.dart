@@ -18,6 +18,9 @@ abstract class ImageAssets {
   static const String parentImgLarge = "$imagePath/parentImgLarge.png";
   static const String qrImg = "$imagePath/qrImg.png";
   static const String lock = "$imagePath/lock.png";
+  static const String firstAds = "$imagePath/ads1.png";
+  static const String secondAds = "$imagePath/ads2.png";
+  static const String thirdAds = "$imagePath/ads3.png";
   static const String tagLogo = "$imagePath/tagLogo.png";
   static const String aiLogo = "$imagePath/aiLogo.png";
   static const String addLogo = "$imagePath/addLogo.png";
@@ -48,6 +51,10 @@ abstract class SvgAssets {
   static const String disconnectedIcon = "$svgPath/disconnectIcon.svg";
   static const String logout = "$svgPath/logoutIcon.svg";
   static const String trashIcon = "$svgPath/trashIcon.svg";
+  static const String timerIcon = "$svgPath/timerIcon.svg";
+  static const String homeBlockIcon = "$svgPath/homeBlockIcon.svg";
+  static const String key = "$svgPath/key.svg";
+  static const String homeAlertIcon = "$svgPath/homeAlertIcon.svg";
   static const String calenderIcon = "$svgPath/calenderIcon.svg";
   static const String protectionIcon = "$svgPath/protectionIcon.svg";
   static const String aiIcon = "$svgPath/aiIcon.svg";
