@@ -5,14 +5,17 @@ import 'package:basera/feature/child_side/main_layout/taps/child_home_tab/presen
 import 'package:flutter/material.dart';
 
 class MissionWidget extends StatelessWidget {
-  const MissionWidget({super.key});
-
+  const MissionWidget({super.key, this.isDaily = true});
+  final bool isDaily;
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text("Daily Missions", style: StylesManager.headerSelecteLine()),
+        Text(
+          isDaily ? "Daily Missions" : '',
+          style: StylesManager.headerSelecteLine(),
+        ),
 
         HeightSpace(16),
 
@@ -41,10 +44,14 @@ class MissionWidget extends StatelessWidget {
         ),
 
         HeightSpace(8),
-
-        Center(
-          child: CustomTaxtButton(text: "View All Missions", onPressed: () {}),
-        ),
+        isDaily
+            ? Center(
+                child: CustomTaxtButton(
+                  text: "View All Missions",
+                  onPressed: () {},
+                ),
+              )
+            : SizedBox.shrink(),
       ],
     );
   }
