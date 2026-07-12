@@ -13,4 +13,9 @@ class Routes {
   static const String missionTab = "/missionTab ";
   static const String childProfileTab = "/childProfileTab";
   static const String childHomeLayout = "/childHomeLayout";
+  static const String rewardDetailsScreen = "/rewardDetailsScreen";
+  static const String confirmRedemptionScreen = "/confirmRedemptionScreen";
+  static const String rewardRedeemdScreen = "/rewardRedeemdScreen";
+  static const String confirmDonationScreen = "/confirmDonationScreen";
+  static const String donationCompletedScreen = "/donationCompletedScreen";
 }

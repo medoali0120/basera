@@ -1,5 +1,4 @@
 import 'package:basera/core/resources/assets_manager.dart';
-
 import 'package:basera/core/resources/font_manager.dart';
 import 'package:basera/core/resources/styles_manager.dart';
 import 'package:basera/core/widgets/custom_elevation_card.dart';
